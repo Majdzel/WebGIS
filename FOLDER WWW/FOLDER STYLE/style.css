@@ -1,1 +1,65 @@
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "topL topR";
+}
+  
+.topL { grid-area: topL; 
+    margin: 5%;
+    border: 3px black solid;
+}
+  
+.topR { grid-area: topR; 
+    margin: 5%;
+    border: 3px black solid;
+}
+
+.topR-dark { grid-area: topR; 
+    margin: 5%;
+    border: 3px white solid;
+
+}
+
+.topL-dark { grid-area: topL; 
+    margin: 5%;
+    border: 3px white solid;
+}
+
+.title{
+    text-align: center;
+}
+
+.topL .text{
+    margin: 5%;
+    font-size: 19px;
+}
+
+.list{
+    font-size: 19px;
+}
+
+.image{
+    margin: 3%;
+    width: 350px;
+    height: 250px;
+}
+
+.button{
+    align-items: center;
+}
