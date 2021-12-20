@@ -3,6 +3,7 @@ body {
     background-color: white;
     color: black;
     font-size: 25px;
+
   }
 
 .dark-mode {
@@ -27,19 +28,10 @@ body {
   
 .topR { grid-area: topR; 
     margin: 5%;
+    margin-top: 5%;
     border: 3px black solid;
 }
 
-.topR-dark { grid-area: topR; 
-    margin: 5%;
-    border: 3px white solid;
-
-}
-
-.topL-dark { grid-area: topL; 
-    margin: 5%;
-    border: 3px white solid;
-}
 
 .title{
     text-align: center;
@@ -62,4 +54,10 @@ body {
 
 .button{
     align-items: center;
+}
+
+#divMap{
+    height: 100%;
+    width: 100%;
+
 }
