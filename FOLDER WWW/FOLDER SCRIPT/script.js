@@ -1,12 +1,8 @@
-function mode() {
-    let body = document.body;
-    body.classList.toggle("dark-mode");
-  }
-
 require([
   'esri/Map',
   'esri/views/MapView',
-  'dijit/from/Button'
+  'dijit/from/Button',
+  
 ],(Map,MapView,Button) => {
   
   const map1 = new Map({
